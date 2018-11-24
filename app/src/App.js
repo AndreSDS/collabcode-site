@@ -1,5 +1,7 @@
 import React from 'react';
 
-const App = () => <h1>Collabcode site</h1>;
+import Header from './components/headerCollab';
+
+const App = () => <Header />;
 
 export default App;
